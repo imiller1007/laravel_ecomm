@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-layout>
     <h1 class="text-2xl font-bold mb-4">All Products</h1>
 
     <div class="grid grid-cols-3 gap-6">
@@ -15,4 +13,4 @@
             </div>
         @endforeach
     </div>
-@endsection
+</x-layout>
